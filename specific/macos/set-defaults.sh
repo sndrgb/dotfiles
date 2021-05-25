@@ -60,13 +60,13 @@ defaults write com.apple.finder OpenWindowForNewRemovableDisk -bool true
 ####################
 
 # remove the auto-hiding Dock delay
-defaults write com.apple.dock autohide-time-modifier -int 0;killall Dock
+defaults delete com.apple.dock autohide-time-modifier;killall Dock
 
 # configure hot corners
-defaults write com.apple.dock wvous-bl-corner -int 10
-defaults write com.apple.dock wvous-bl-modifier -int 0
-defaults write com.apple.dock wvous-br-corner -int 4
-defaults write com.apple.dock wvous-br-modifier -int 0
+# defaults write com.apple.dock wvous-bl-corner -int 10
+# defaults write com.apple.dock wvous-bl-modifier -int 0
+# defaults write com.apple.dock wvous-br-corner -int 4
+# defaults write com.apple.dock wvous-br-modifier -int 0
 
 # minimize windows into their application’s icon
 defaults write com.apple.dock minimize-to-application -bool false
