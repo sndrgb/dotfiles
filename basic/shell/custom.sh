@@ -26,3 +26,5 @@ source /usr/local/opt/asdf/asdf.sh
 
 # TODO make completions work
 # . /usr/local/opt/asdf/etc/bash_completion.d/asdf.bash
+source $DOTFILES/basic/shell/more/aliases.sh
+source $DOTFILES/basic/shell/more/ssl-check.sh

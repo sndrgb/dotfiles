@@ -1,5 +1,8 @@
 cask_args appdir: '/Applications'
 
+tap 'homebrew/cask'
+tap 'homebrew/cask-fonts'
+tap 'homebrew/cask-versions'
 tap 'homebrew/bundle'
 
 brew 'ack' # grep
@@ -11,24 +14,19 @@ brew 'fd' # find
 brew 'fzf' # fuzzy finder
 brew 'gpg'
 brew 'gpg2'
-brew 'imagemagick'
-brew 'jq' # json query
-brew 'kubectl' # https://kubernetes.io/docs/tasks/tools/install-kubectl/#install-with-homebrew-on-macos
 brew 'libgit2'
-brew 'openssl'
 brew 'readline'
-brew 'switchaudio-osx'
-brew 'watchman'
+brew 'exa'
 brew 'wget'
-brew 'yq' # like jq, for yaml
 brew 'zsh-syntax-highlighting'
+brew 'zsh-autosuggestions'
 brew 'zsh'
 
-cask '1password'
-cask 'docker'
 cask 'google-chrome'
 cask 'iterm2'
 cask 'spectacle'
 cask 'spotify'
 cask 'visual-studio-code'
-cask 'whatsapp'
+cask 'telegram'
+cask 'handbrake'
+cask 'vlc'
