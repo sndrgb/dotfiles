@@ -17,6 +17,7 @@ brew 'switchaudio-osx'
 brew 'wget'
 brew 'zsh-syntax-highlighting'
 brew 'zsh'
+brew 'meetingbar'
 
 cask 'docker'
 cask 'google-chrome'
